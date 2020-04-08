@@ -1,0 +1,113 @@
+body{
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+hr {
+    margin: 0px;
+}
+
+.button{
+    padding: 5px 10px;
+    border-radius: 4px;
+    box-shadow: 0 0 2px 0 grey;
+    background: dodgerblue;
+    color: white;
+}
+
+.button a{
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-container > div {
+    padding: 15px;
+    flex: 1
+}
+
+header .flex-container {
+    align-items: center;
+}
+
+#content{
+    flex: 2;
+    box-shadow: 0px 0px 2px 0px grey;
+}
+
+#sidebar{
+    flex: 1;
+    /*box-shadow: -1px 0px 2px -1px grey;
+    border-radius: 5px;*/
+}
+
+#logo img{
+    max-width: 100px;
+}
+
+#top-nav ul, #main-menu ul {
+    margin: 0px;
+    padding: 0px;
+    display: flex;    
+}
+
+#top-nav ul{
+    justify-content: flex-end;
+}
+
+#top-nav ul li, #main-menu ul li {
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+#top-nav ul li:last-child {
+    margin-right: 0px;
+}
+
+#main-menu{
+    background: darkslategrey;
+}
+
+#main-menu > div {
+    padding: 0px 15px;
+}
+
+#main-menu .menu-link{
+    padding: 10px 0;
+    border-left: 1px solid #ccc;
+    flex: 1;
+    text-align: center;
+}
+
+#main-menu .menu-link:last-child{
+    border-right: 1px solid #ccc;
+    margin-right: 0px;
+}
+
+#main-menu .menu-link a{
+    color: white;
+}
+
+.blog-post{
+    box-shadow: 0 0px 2px 0px grey;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.list-view-blog-img{
+    max-width: 50px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.blog-post-title{
+    margin: 0px;
+    display: flex;
+    align-items: center;
+}
