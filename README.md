@@ -17,3 +17,5 @@
 * flex
 * align-self (baseline, center, end, start, flex-end, flex-start, right, left, streach, self-start, self-end)
 
+## Reference
+* https://www.w3schools.com/css/css3_flexbox.asp
